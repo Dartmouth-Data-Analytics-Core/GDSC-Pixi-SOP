@@ -381,7 +381,7 @@ version = "0.1.0"
 [tasks]
 
 # Run RStudio project
-rstudio = "rstudio /Volumes/GMBSR_bioinfo/Labs/malaney/251201-Malaney-Lymphoma-Signature.Rproj"
+rstudio = "open -a -n Rstudio /Volumes/GMBSR_bioinfo/Labs/malaney/251201-Malaney-Lymphoma-Signature/251201-Malaney-Lymphoma-Signature.Rproj"
 
 # Install bioconductor packages
 install-bioc = """
