@@ -63,7 +63,11 @@ cd alignment
 
 ## Adding Software to the Environment 
 
-Tools and software can be added to the Pixi environment directly from the command line (A) (which will automatically update the `toml` and `lock`), or by directly modifying the `toml` and running `pixi install` (B). 
+Tools and software can be added to the Pixi environment:
+
+**A.** directly from the command line with `pixi add` (which will automatically update the `toml` and `lock`)
+
+**B.** Directly modifying the `toml` and running `pixi install`
 
 In general, Pixi will try and first resolve packages through conda-based libraries (conda-forge, bioconda, etc.) before turning to PyPI, falling back on `UV`, a Rust-based package solver. 
 
