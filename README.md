@@ -19,7 +19,10 @@ This SOP applies to any projects where a reproducible environment is needed, inc
 
 --------
 
-# Table of Contents
+## Table of Contents
+
+<details>
+  <summary>Show / hide</summary>
 
 - [Installations and prerequisites](#installations-and-prerequisites)
   - [Local installation](#local-installation)
@@ -39,6 +42,8 @@ This SOP applies to any projects where a reproducible environment is needed, inc
     - [Task Installation](#task-installation)
   - [Real Project Example in R](#real-project-example-in-r)
   - [Real Project Example in Python](#real-project-example-in-python)
+
+</details>
 
 **Definitions:**
 
